@@ -9,6 +9,9 @@ TagManager:
   - LeadWall
   - LeadCeiling
   - LeadGround
+  - Interact
+  - Collectable
+  - Carryable
   layers:
   - Default
   - TransparentFX
