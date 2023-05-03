@@ -12,6 +12,8 @@ TagManager:
   - Interact
   - Collectable
   - Carryable
+  - StartPoint
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Ground
   - Wall
   - PostProc
-  - 
+  - LRTNoBlock
   - 
   - 
   - 

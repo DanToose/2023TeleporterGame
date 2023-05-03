@@ -18,6 +18,8 @@ public class LongRangedTeleport : MonoBehaviour
     public float longTeleRange = 1000f;
     public Slider meterSliderLong;
 
+    public LayerMask layers;
+
     void Start()
     {
         Player = this.gameObject;
@@ -30,7 +32,7 @@ public class LongRangedTeleport : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); // Finding point to teleport to
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, longTeleRange))
+            if (Physics.Raycast(ray, out hit, longTeleRange, layers))
             {
                 if ((hit.collider.CompareTag("Ceiling")) || (hit.collider.CompareTag("LeadCeiling")))
                 {
