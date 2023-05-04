@@ -1541,7 +1541,7 @@ GameObject:
   - component: {fileID: 575801026}
   - component: {fileID: 575801025}
   - component: {fileID: 575801024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeadWall1
   m_TagString: LeadWall
   m_Icon: {fileID: 0}
@@ -2509,7 +2509,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24078
+  m_Name: pb_Mesh24160
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3482,7 +3482,7 @@ GameObject:
   - component: {fileID: 1392381481}
   - component: {fileID: 1392381480}
   - component: {fileID: 1392381479}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: LeadCeiling1
   m_TagString: LeadCeiling
   m_Icon: {fileID: 0}
@@ -3842,7 +3842,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24144
+  m_Name: pb_Mesh24234
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6549,7 +6549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6747522135760156546, guid: ed63680e020234540b4a593aa370430c, type: 3}
       propertyPath: layers.m_Bits
-      value: 193
+      value: 1217
       objectReference: {fileID: 0}
     - target: {fileID: 6747522135760156546, guid: ed63680e020234540b4a593aa370430c, type: 3}
       propertyPath: meterSliderLong
@@ -6558,6 +6558,10 @@ PrefabInstance:
     - target: {fileID: 6747522135760156549, guid: ed63680e020234540b4a593aa370430c, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6747522135760156549, guid: ed63680e020234540b4a593aa370430c, type: 3}
+      propertyPath: sLayers.m_Bits
+      value: 1024
       objectReference: {fileID: 0}
     - target: {fileID: 6747522135760156549, guid: ed63680e020234540b4a593aa370430c, type: 3}
       propertyPath: meterSliderShort
