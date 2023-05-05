@@ -41,9 +41,9 @@ public class ShortRangedTeleport : MonoBehaviour
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); // Finding point to teleport to
                 RaycastHit hit;
-                if (Physics.Raycast(ray, out hit, 5.0f, sLayers))
+                if (Physics.Raycast(ray, out hit, 5.0f, sLayers)) // CHANGE the 5.0f if you need to adjust your short tele range!
                 {
-                    //derp;
+                    // Nothing happens if it hits anything in your sLayers list of layers - Like 'Lead'
                 }
                 else
                 {
